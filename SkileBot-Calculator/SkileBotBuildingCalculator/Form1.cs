@@ -123,6 +123,10 @@ namespace SkileBotBuildingCalculator
         private void Form1_Load(object sender, EventArgs e)
         {
             Initialize();
+
+            // 포인터 속성 변경
+            this.label15.Cursor = Cursors.Hand;
+            this.label20.Cursor = Cursors.Hand;
         }
 
         #region 콤보 박스 초기화
@@ -1245,6 +1249,16 @@ namespace SkileBotBuildingCalculator
             }
             ChangePriceNow();
             ChangeBuildPrice();
+        }
+
+        private void label20_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://github.com/taegeon-ryan/SkileBot-Calculator");
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("https://team-crescendo.me");
         }
     }
 }

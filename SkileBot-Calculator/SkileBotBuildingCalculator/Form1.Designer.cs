@@ -842,6 +842,7 @@
             this.label15.Size = new System.Drawing.Size(177, 15);
             this.label15.TabIndex = 76;
             this.label15.Text = "https://team-crescendo.me";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // btnRusPriceApply
             // 
@@ -968,12 +969,13 @@
             // 
             this.label20.Font = new System.Drawing.Font("나눔바른고딕", 8.249999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label20.ForeColor = System.Drawing.SystemColors.Window;
-            this.label20.Location = new System.Drawing.Point(921, 66);
+            this.label20.Location = new System.Drawing.Point(921, 65);
             this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(112, 33);
+            this.label20.Size = new System.Drawing.Size(112, 34);
             this.label20.TabIndex = 86;
-            this.label20.Text = "https://github.com/SkileBot-Calculator\r\n";
+            this.label20.Text = "@taegeon-ryan/SkileBot-Calculator\r\n";
             this.label20.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.label20.Click += new System.EventHandler(this.label20_Click);
             // 
             // pictureBox4
             // 
