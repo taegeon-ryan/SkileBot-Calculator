@@ -7,7 +7,7 @@
 본 프로그램은 `나눔바른고딕`과 `나눔스퀘어` 글꼴을 사용하고 있습니다.
 
 ## 다운로드
-* [다운로드](https://github.com/taegeon-ryan/SkileBot-Calculator)
+* [다운로드](https://github.com/taegeon-ryan/SkileBot-Calculator/releases)
 
 ## 스크린샷
 ![Example](./Images/example.png)
