@@ -819,7 +819,7 @@
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(40, 19);
             this.label8.TabIndex = 73;
-            this.label8.Text = "v1.0";
+            this.label8.Text = "v1.1";
             // 
             // label9
             // 
